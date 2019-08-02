@@ -1,0 +1,60 @@
+header .search {
+    width: 100%;
+    border: 3px solid black;
+    height: 35px;
+    font-size: 30px;
+}
+.movies {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+.movie {
+    width: 24%;
+    border: 1px solid black;
+    margin: 0 5px 5px 0;
+}
+.movie img {
+    width: 100%;
+}
+.movie .description {
+    padding: 5px 20px;
+}
+.errorMessage {
+    color: red;
+}
+.pagination-container-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 8px;
+    border-radius: 6px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.page:hover {
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;
+}
+.page._active {
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;
+}
